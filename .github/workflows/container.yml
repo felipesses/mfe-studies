@@ -6,10 +6,11 @@ on:
       - main
     paths:
       - "./container/**"
+      - '.github/workflows/container.yml'
 
 defaults:
   run:
-    working-directory: ./container
+    working-directory: container
 
 jobs:
   build:
