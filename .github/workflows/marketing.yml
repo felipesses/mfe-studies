@@ -6,7 +6,7 @@ on:
       - "**"
       - main
     paths:
-      - "./container/**"
+      - "./marketing/**"
       - ".github/workflows/marketing.yml"
 
 defaults:
